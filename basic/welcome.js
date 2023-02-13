@@ -1,1 +1,3 @@
-var hai=55;
+const fname='deepak';
+const lname='kumar';
+const flname=`${fname}${lname}`;
