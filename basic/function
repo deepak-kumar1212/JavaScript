@@ -1,0 +1,7 @@
+const array='Welcome to my page' . split(',');
+function view(){
+    console.log(array);
+}
+view(array);
+console.log(array[1]);
+console.log(array[1]);
