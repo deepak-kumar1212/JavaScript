@@ -19,8 +19,8 @@
 //     let y=10;
 // }
 // console.log(x+""+y);
-const x = 1;
+// const x = 1;
 {
   console.log(x);
-//   const x = 2;
+   const x = 2;
 }
