@@ -1,6 +1,7 @@
-class Person {
+class Person{
 
-  
+  //name='';
+  //this.name=name;
     constructor(name) {
       this.name = name;
     }
@@ -14,7 +15,7 @@ class Person {
 
  
   
-    constructor(name, teaches) {
+     constructor(name, teaches) {
       super(name);
       this.teaches = teaches;
     }
@@ -23,12 +24,13 @@ class Person {
       console.log(`My name is ${this.name}, and I will be your ${this.teaches} professor.`);
     }
   
-    grade(paper) {
+    grade() {
       const grade = Math.floor(Math.random() * (5 - 1) + 1);
       console.log(grade);
     }
   
   }
-  const walsh = new Person('Walsh');
-  walsh.introduceSelf();
+  const walsh = new Professor('Walsh');
+  walsh.grade('my paper');
+  //walsh.introduceSelf();
      
