@@ -28,7 +28,10 @@
 // console.log(callbacks[0]()); 
 // console.log(callbacks[1]()); 
 // console.log(callbacks[2]()); 
-function f (x, y, ...a) {
-    return (x + y) * a.length
-}
-console.log(f(0, 1, "hello", true, 0));
+// function f (...a) {
+//     return  a.length
+// }
+// console.log(f(0, 1, "hello", true, 0));
+const array=[[7,8]];
+const array1=[...array[0],5,6];
+console.log(array1);

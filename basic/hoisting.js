@@ -1,5 +1,5 @@
-//console.log(x);
-// let x=15;
+// console.log(y);
+// let y=15;
 
 // const array=[];
 // function display(array1){
@@ -25,10 +25,27 @@ const employees=[
         Lastname:"Thenrajan"
     }
 ];
-// for(const emp of employees){
-//     alert(`${emp[0].Firstname},${emp[0].Lastname}`);
+//  for(const emp of employees){
+//      alert(`${emp.Firstname} ${emp.Lastname}`);
+//  }
+// console.log(employees[0]);
+// for(let i=0;i<employees.length;i++){
+//     alert(`${employees[i].Firstname} ${employees[i].Lastname}`);
 // }
-console.log(employees[0]);
-for(let i=0;i<employees.length;i++){
-    alert(`${employees[i].Firstname} ${employees[i].Lastname}`);
-}
+// for(const x in employees){
+//     console.log(employees[0][x]);
+// }
+//console.log(employees[Firstname]);
+// employees.forEach(join);
+// for(let x in join){
+
+// }
+// {
+//     console.log(name); // undefined
+//     let name = 'Mukul Latiyan';
+// }
+const array=[1,2,3,4];
+const array1=array.reduce((total,num)=>{
+    return total+num;
+});
+console.log(array1);

@@ -1,13 +1,18 @@
-// const val='I\'m Deepak Kumar \'\'';
-const count=["1","2","3"];
-let value=6;
-if(value==count.length){
-    console.log(true);
+// // const val='I\'m Deepak Kumar \'\'';
+// const count=["1","2","3"];
+// let value=6;
+// if(value==count.length){
+//     console.log(true);
+// }
+// else{
+//     let j=value-count.length
+//     for(let i=0;i<j;i++){
+//       count.unshift('*');
+//     }
+//     console.log(count);
+// }
+let text = "JavaScript";
+for (let x of text) {
+  text += x + " ";
 }
-else{
-    let j=value-count.length
-    for(let i=0;i<j;i++){
-      count.unshift('*');
-    }
-    console.log(count);
-}
+console.log(text);
