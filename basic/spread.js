@@ -8,3 +8,5 @@ const obj={
 }
 const obj2={...obj1,...obj};
 console.log(obj2.fname);
+Object.assign(obj1,{age:22});
+console.log(obj1.age)
